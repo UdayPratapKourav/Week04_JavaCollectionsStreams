@@ -18,7 +18,7 @@ public class Main {
         }catch (ArithmeticException e){
             System.out.println("Enter only positive number ");
         }catch (InputMismatchException f){
-            System.out.println("Enter only Integer value !");
+            System.out.println("Enter only Integer value ");
         }
     }
 }
