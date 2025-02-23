@@ -1,0 +1,9 @@
+package annotations.intermediatelevel.loggingmethodexecutiontime;
+
+import java.lang.annotation.*;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface LogExecutionTime {
+}
+
